@@ -1,0 +1,28 @@
+{
+  "prompts": {
+    "name": {
+      "type": "input",
+      "message": "项目名"
+    },
+    "author": {
+      "type": "input",
+      "message": "作者"
+    },
+    "keywords": {
+      "type": "input",
+      "message": "关键词"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "message": "描述",
+      "default": "A project of vue"
+    },
+		"vuex": {
+			"type": "confirm",
+			"message": "你的项目中需要安装vuex吗",
+			"default": false
+		}
+  },
+  "completeMessage": "请按以下步骤启动，耐心等待:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm i\n  npm run dev"
+}
