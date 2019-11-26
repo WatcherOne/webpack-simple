@@ -1,2 +1,3 @@
 # webpack-simple
-a simple vue-cli demo
+
+you can 'vue init WatcherOne/webpack-simple 项目名'
